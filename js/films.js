@@ -20,8 +20,11 @@ const N1 = 'N1',
       N3 = 'N3',
       actor3 = prompt("Один из актеров3 ?", "3 ...");
 
-const genre1 = prompt("Любимыи жанр 1?", "1 ..."),      
+const G1 = 'G1',
+      genre1 = prompt("Любимыи жанр 1?", "1 ..."),      
+      G2 = 'G2',
       genre2 = prompt("Любимыи жанр 2?", "2 ..."),
+      G3 = 'G3',
       genre3 = prompt("Любимыи жанр 3?", "3 ...");
 
 personalMovieDB.movies[a] = b;
