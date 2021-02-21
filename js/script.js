@@ -1,4 +1,4 @@
-/*jslint es6 devel: true */
+/*jslint es6 devel: true*/
 
 let number = 5,
     incr = 5,
