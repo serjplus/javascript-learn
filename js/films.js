@@ -1,3 +1,5 @@
+/*jslint es6 devel: true*/
+
 const numberOfFilms = +prompt("Skolko filmov vi uzhe smotreli", "");
 
 const personalMovieDB = {
