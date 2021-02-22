@@ -12,16 +12,25 @@ const personalMovieDB = {
 
 for ( let i = 0; i < 2 ; i++ ){
 
-const a = prompt("Один из последних просмотренных фильмов?", "Введите название..."),
-      b = prompt("На сколько оцените его?", "5");
+const a = prompt("Один из последних просмотренных фильмов?", ""),
+      b = prompt("На сколько оцените его?", "");
 
 if (a != null && b != null && a != '' && b != '' && a.length < 50){
    personalMovieDB.movies[a] = b;
-   console.log("done");
+   alert("Ya zapomnil poshli dalshe");
 } else {
-   console.log('error');
+   alert('Chto to ne tak vvodish poprobuy snova');
    i--;
 }
 }
 
-console.log(personalMovieDB);
+if (personalMovieDB.count < 10){
+   alert("Vi prosmotreli slishkom malo filmov");
+} else if (personalMovieDB.count > 10 && personalMovieDB.count < 30){
+   alert("Ooo Vi klasicheski zritel");
+} else if (personalMovieDB.count >= 30){
+   alert("Ooo Vi Kinoman");
+} else  {
+   alert("Blya Proizoshla oshibka");
+}
+
