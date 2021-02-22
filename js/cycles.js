@@ -31,6 +31,6 @@ if (personalMovieDB.count < 10){
 } else if (personalMovieDB.count >= 30){
    alert("Ooo Vi Kinoman");
 } else  {
-   alert("Blya Proizoshla oshibka");
+   alert("Blin Proizoshla oshibka");
 }
 
